@@ -40,6 +40,7 @@ lw t3 0(a5) #line
 addi t4,x0,0 #sum
 
 addi t5,x0,0
+addi t6,x0,0
 loop1:
 bge t6,t3,exit1
 addi t5,t5,16
